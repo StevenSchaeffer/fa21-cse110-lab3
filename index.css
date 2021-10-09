@@ -1,5 +1,14 @@
 /* External Styling for index.html */
 
+@font-face {
+    font-family:"Oxygen";
+    src:url("media/Oxygen-Regular.woff2");
+}
+
+html {
+    font-family:"Oxygen";   /* custom html font */
+}
+
 hr {
     border:0.25pc dashed darkcyan;  /* modify border of hr */
 }

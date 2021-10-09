@@ -75,4 +75,12 @@ div {
     position:relative;  /* relative div position */
 }
 
-/* temp!! */
+button:hover {
+    color:red;  /* change button hover to color red */
+}
+
+textarea:active {
+    color:red;  /* change textarea active to color red */
+}
+
+/* temp!!! */

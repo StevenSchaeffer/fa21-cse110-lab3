@@ -15,7 +15,7 @@ h2 {
 }
 
 h3 {
-    color:rgb(255, 70, 70); /* changes h3 to color red */
+    color:rgb(175, 70, 70); /* changes h3 to color brickred */
     font-size:16pt; /* changes h3 to font size 16pt */
 }
 
@@ -97,4 +97,4 @@ textarea:active {
     color:red;  /* change textarea active to color red */
 }
 
-/* temp!!! */
+/* temp!! */

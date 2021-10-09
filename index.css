@@ -1,0 +1,107 @@
+/* External Styling for index.html */
+
+@font-face {
+    font-family:"Oxygen";
+    src:url("media/Oxygen-Regular.woff2");
+}
+
+html {
+    font-family:"Oxygen";   /* custom html font */
+}
+
+hr {
+    border:0.25pc dashed darkcyan;  /* modify border of hr */
+}
+
+h1 {
+    font-size:2.5rem;   /* changes h1 to font size 2.5rem */
+    margin:auto;    /* auto margins for h1 */
+}
+
+h2 {
+    color:#6837db;  /* changes h2 to color blueviolet */
+    font-size:2pc;  /* changes h2 to font size 2pc */
+}
+
+h3 {
+    color:rgb(175, 70, 70); /* changes h3 to color brickred */
+    font-size:16pt; /* changes h3 to font size 16pt */
+}
+
+h4 {
+    color:navy; /* changes h4 to color navy */
+    font-size:16px; /* changes h4 to font size 16px */
+}
+
+h5 {
+    color:hsl(75, 100, 22); /* changes h5 to color darkgreen */
+}
+
+header {
+    background-color:whitesmoke;    /* changes header background color to whitesmoke */
+    font-size:1.5em;    /* changes header to font size 1.5em */
+}
+
+footer {
+    background-color:whitesmoke;    /* changes footer background color to whitesmoke */
+    font-size:3ex;  /* changes footer to font size 3ex */
+}
+
+p {
+    color:darkred;  /* changes p to color darkred */
+    margin-top:10px;    /* top margin */
+    margin-bottom:10px; /* bottom margin */
+    margin-left:25px;   /* left margin */
+    margin-right:25px;  /* right margin */
+    padding-top:50px;   /* top padding */
+    padding-bottom:50px;    /* bottom padding */
+    padding-left:50px;  /* left padding */
+    padding-right:50px; /* right padding */
+    display:grid;   /* displays p as grid */
+    justify-self:center;    /* justify self as center for p */
+    align-self:center;  /* align self as center for p */
+    place-self:initial; /* place self as initial for p */
+}
+
+@media only screen and (max-width:3840px) {
+    body {
+        margin: 100px 50px 100px 50px;  /* changes body margins */
+        padding: 25px 25px 25px 25px;   /* changes body padding */
+        border-style:dotted;    /* dotted border for body */
+        border-color:white; /* color border for body */
+        border-width:10px;  /* change border width for body */
+        border-radius:30px; /* change border radius for body */
+        color:darkgoldenrod;    /* change body text to color darkgold */
+        text-decoration:wavy;   /* change body text to decoration wavy */
+        text-align:left;    /* change body text to align left */
+        position:static;    /* static body position */
+    }
+}
+
+li {
+    display:block;  /* displays list elements as block text */
+    order:1;    /* changes order of list elements to 1 */
+    flex-grow:1;    /* changes list elements to flex grow 1 */
+    align-self:center;  /* changes list elements to align center */
+}
+
+a {
+    display:inline; /* displays anchors as inline text */
+}
+
+div {
+    height:auto;    /* auto height for div */
+    width:auto; /* auto width for div */
+    max-width:none; /* change max width to none */
+    min-width:auto; /* change min width to auto */
+    position:relative;  /* relative div position */
+    display:flex;   /* displays divs as flex */
+}
+
+button:hover {
+    color:red;  /* change button hover to color red */
+}
+
+textarea:active {
+    color:red;  /* change textarea active to color red */
+}

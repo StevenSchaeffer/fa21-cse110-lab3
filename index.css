@@ -1,5 +1,15 @@
 /* External Styling for index.html */
 
 h2 {
-    color:blueviolet;   /* changes h2 to color blueviolet */
+    color:#8a2be2;  /* changes h2 to color blueviolet */
 }
+
+h3 {
+    color:rgb(255, 70, 70); /* changes h3 to color red */
+}
+
+h4 {
+    color:hsl(12, 12, 12);  /* changes h4 to color blah */
+}
+
+/* temp!! */

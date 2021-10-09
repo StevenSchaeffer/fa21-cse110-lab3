@@ -50,7 +50,7 @@ p {
     place-self:initial; /* place self as initial for p */
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width:3840px) {
     body {
         margin: 100px 50px 100px 50px;  /* changes body margins */
         padding: 25px 25px 25px 25px;   /* changes body padding */
@@ -93,4 +93,4 @@ textarea:active {
     color:red;  /* change textarea active to color red */
 }
 
-/* temp!! */
+/* temp!!!!! */

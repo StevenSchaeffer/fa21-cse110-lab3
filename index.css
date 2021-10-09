@@ -40,10 +40,19 @@ p {
     margin-bottom:100px;    /* bottom margin */
     margin-left:50px;   /* left margin */
     margin-right:50px;  /* right margin */
+    padding-top:50px;  /* top padding */
+    padding-bottom:50px;   /* bottom padding */
+    padding-left:50px;  /* left padding */
+    padding-right:50px;    /* right padding */
 }
 
 body {
     margin: 100px 50px 100px 50px;  /* changes body margins */
+    padding: 25px 25px 25px 25px;   /* changes body padding */
+    border-style:dotted;    /* dotted border for body */
+    border-color:white; /* color border for body */
+    border-width:10px;  /* change border width for body */
+    border-radius:30px; /* change border radius for body */
 }
 
-/* temp!! */
+/* temp!!! */

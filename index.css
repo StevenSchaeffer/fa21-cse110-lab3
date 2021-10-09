@@ -58,4 +58,12 @@ body {
     text-align:left;    /* change body text to align left */
 }
 
+li {
+    display:block;  /* displays list elements as block text */
+}
+
+a {
+    display:inline; /* displays anchors as inline text */
+}
+
 /* temp!! */

@@ -44,23 +44,32 @@ p {
     padding-bottom:50px;   /* bottom padding */
     padding-left:50px;  /* left padding */
     padding-right:50px;    /* right padding */
+    display:grid;   /* displays p as grid */
+    justify-self:center;    /* justify self as center for p */
+    align-self:center;  /* align self as center for p */
+    place-self:initial; /* place self as initial for p */
 }
 
-body {
-    margin: 100px 50px 100px 50px;  /* changes body margins */
-    padding: 25px 25px 25px 25px;   /* changes body padding */
-    border-style:dotted;    /* dotted border for body */
-    border-color:white; /* color border for body */
-    border-width:10px;  /* change border width for body */
-    border-radius:30px; /* change border radius for body */
-    color:darkorange;   /* change body text to color darkorange */
-    text-decoration:wavy;   /* change body text to decoration wavy */
-    text-align:left;    /* change body text to align left */
-    position:static;    /* static body position */
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 100px 50px 100px 50px;  /* changes body margins */
+        padding: 25px 25px 25px 25px;   /* changes body padding */
+        border-style:dotted;    /* dotted border for body */
+        border-color:white; /* color border for body */
+        border-width:10px;  /* change border width for body */
+        border-radius:30px; /* change border radius for body */
+        color:darkorange;   /* change body text to color darkorange */
+        text-decoration:wavy;   /* change body text to decoration wavy */
+        text-align:left;    /* change body text to align left */
+        position:static;    /* static body position */
+    }
 }
 
 li {
     display:block;  /* displays list elements as block text */
+    order:1;    /* changes order of list elements to 1 */
+    flex-grow:1;    /* changes list elements to flex grow 1 */
+    align-self:center;  /* changes list elements to align center */
 }
 
 a {
@@ -73,6 +82,7 @@ div {
     max-width:none; /* change max width to none */
     min-width:auto; /* change min width to auto */
     position:relative;  /* relative div position */
+    display:flex;   /* displays divs as flex */
 }
 
 button:hover {

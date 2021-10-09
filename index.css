@@ -56,6 +56,7 @@ body {
     color:darkorange;   /* change body text to color darkorange */
     text-decoration:wavy;   /* change body text to decoration wavy */
     text-align:left;    /* change body text to align left */
+    position:static;    /* static body position */
 }
 
 li {
@@ -64,6 +65,14 @@ li {
 
 a {
     display:inline; /* displays anchors as inline text */
+}
+
+div {
+    height:auto;    /* auto height for div */
+    width:auto; /* auto width for div */
+    max-width:none; /* change max width to none */
+    min-width:auto; /* change min width to auto */
+    position:relative;  /* relative div position */
 }
 
 /* temp!! */

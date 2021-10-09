@@ -53,6 +53,9 @@ body {
     border-color:white; /* color border for body */
     border-width:10px;  /* change border width for body */
     border-radius:30px; /* change border radius for body */
+    color:darkorange;   /* change body text to color darkorange */
+    text-decoration:wavy;   /* change body text to decoration wavy */
+    text-align:left;    /* change body text to align left */
 }
 
-/* temp!!! */
+/* temp!! */

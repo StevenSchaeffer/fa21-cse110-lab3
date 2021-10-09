@@ -16,4 +16,12 @@ h5 {
     color:hsl(85, 100, 50); /* changes h5 to color lightgreen */
 }
 
+header {
+    background-color:whitesmoke;    /* changes header background color to whitesmoke */
+}
+
+footer {
+    background-color:whitesmoke;    /* changes footer background color to whitesmoke */
+}
+
 /* temp!! */

@@ -1,5 +1,10 @@
 /* External Styling for index.html */
 
+@font-face {
+    font-family:'Roboto Condensed', sans-serif;
+    src:url(https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap);
+}
+
 h1 {
     font-size:2.5rem;   /* changes h1 to font size 2.5rem */
     margin:auto;    /* auto margins for h1 */

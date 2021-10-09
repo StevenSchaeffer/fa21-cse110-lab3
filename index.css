@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-    color:#8a2be2;  /* changes h2 to color blueviolet */
+    color:#6837db;  /* changes h2 to color blueviolet */
     font-size:2pc;  /* changes h2 to font size 2pc */
 }
 
@@ -62,7 +62,7 @@ p {
         border-color:white; /* color border for body */
         border-width:10px;  /* change border width for body */
         border-radius:30px; /* change border radius for body */
-        color:darkorange;   /* change body text to color darkorange */
+        color:darkgoldenrod;    /* change body text to color darkgold */
         text-decoration:wavy;   /* change body text to decoration wavy */
         text-align:left;    /* change body text to align left */
         position:static;    /* static body position */

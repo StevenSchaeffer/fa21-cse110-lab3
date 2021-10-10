@@ -21,6 +21,10 @@ html {
     padding:10px;   /* standardize padding for audio and video */
 }
 
+#exp {
+    padding:5px;    /* changes padding of experience select */
+}
+
 hr {
     border:0.25pc dashed darkcyan;  /* modify border of hr */
 }

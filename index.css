@@ -45,6 +45,10 @@ h2 + h2 {
     font-style:normal;  /* changes h2 to font style normal */
 }
 
+div.media1 {
+    background-color:darkcyan;  /* changes background of image to color darkcyan */
+}
+
 hr {
     border:0.25pc dashed darkcyan;  /* modify border of hr */
 }

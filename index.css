@@ -25,6 +25,12 @@ html {
     padding:5px;    /* changes padding of experience select */
 }
 
+div * {
+    background-color:darkcyan;  /* changes background of all elements in div to color darkcyan */
+}
+
+/* todo now */
+
 hr {
     border:0.25pc dashed darkcyan;  /* modify border of hr */
 }

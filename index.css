@@ -33,7 +33,9 @@ a[href="https://www.facebook.com/SDBoardClub/"] {
     color:darkmagenta;  /* changes color of facebook link to color darkmagenta */
 }
 
-/* combinators */
+body > form {
+    background-color:lightcyan; /* changes background of form elements in body to color lightcyan */
+}
 
 hr {
     border:0.25pc dashed darkcyan;  /* modify border of hr */

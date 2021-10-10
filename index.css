@@ -9,6 +9,18 @@ html {
     font-family:"Oxygen";   /* custom html font */
 }
 
+.allmedia {
+    margin:30px;    /* standardize margins for all media */
+}
+
+.media1 {
+    padding:40px;   /* standardize padding for image */
+}
+
+.media2, .media3 {
+    padding:10px;   /* standardize padding for audio and video */
+}
+
 hr {
     border:0.25pc dashed darkcyan;  /* modify border of hr */
 }

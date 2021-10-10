@@ -29,7 +29,7 @@ div * {
     background-color:darkcyan;  /* changes background of all elements in div to color darkcyan */
 }
 
-/* todo now */
+/* attribute */
 
 hr {
     border:0.25pc dashed darkcyan;  /* modify border of hr */

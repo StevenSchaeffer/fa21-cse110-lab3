@@ -9,6 +9,46 @@ html {
     font-family:"Oxygen";   /* custom html font */
 }
 
+.allmedia {
+    margin:30px;    /* standardize margins for all media */
+}
+
+.media1 {
+    padding:40px;   /* standardize padding for image */
+}
+
+.media2, .media3 {
+    padding:10px;   /* standardize padding for audio and video */
+}
+
+#exp {
+    padding:5px;    /* changes padding of experience select */
+}
+
+div * {
+    background-color:darkcyan;  /* changes background of all elements in div to color darkcyan */
+}
+
+a[href="https://www.facebook.com/SDBoardClub/"] {
+    color:darkmagenta;  /* changes color of facebook link to color darkmagenta */
+}
+
+body > form {
+    background-color:lightcyan; /* changes background of form elements in body to color lightcyan */
+}
+
+hr ~ h2 {
+    font-style:italic;  /* changes h2 to font style italic */
+}
+
+h2 + h2 {
+    font-style:normal;  /* changes h2 to font style normal */
+}
+
+div.media1 {
+    background-color:darkcyan;  /* changes background of image to color darkcyan */
+}
+
 hr {
     border:0.25pc dashed darkcyan;  /* modify border of hr */
 }

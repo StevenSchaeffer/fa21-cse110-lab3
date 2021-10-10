@@ -29,7 +29,9 @@ div * {
     background-color:darkcyan;  /* changes background of all elements in div to color darkcyan */
 }
 
-/* attribute */
+a[href="https://www.facebook.com/SDBoardClub/"] {
+    color:darkmagenta;  /* changes color of facebook link to color darkmagenta */
+}
 
 hr {
     border:0.25pc dashed darkcyan;  /* modify border of hr */

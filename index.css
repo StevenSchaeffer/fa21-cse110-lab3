@@ -33,7 +33,7 @@ a[href="https://www.facebook.com/SDBoardClub/"] {
     color:darkmagenta;  /* changes color of facebook link to color darkmagenta */
 }
 
-/* here */
+/* combinators */
 
 hr {
     border:0.25pc dashed darkcyan;  /* modify border of hr */
